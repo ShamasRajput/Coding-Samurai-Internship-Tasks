@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+#jumbotron{
+     /* margin-top: 75px; */
+     background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+     background-size:cover;
+     background-repeat: no-repeat;
+     color: rgb(253, 253, 253);
+     text-align: center;
+     height: 600px;
+}
+#jumbotron-blog{
+    background-image: url(https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    height: 600px;
+}
+#random{
+    text-align: center;
+    margin-top: 50px;
+    color:rgb(15, 15, 16);
+
+}
+#footer{
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgb(84, 83, 83);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:aliceblue;
+
+}
+
+.container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box input, textarea{
+    width: 52vw;
+    padding: 0px 6px;
+    margin: 7px 0;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    padding: 0px 20px;
+    padding-top: 3px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn-submit:hover {
+    color: white;
+    background: black;
+}
